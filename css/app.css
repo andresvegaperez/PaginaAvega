@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #34495E ;
+    font-family: Roboto;
+}
+
+header{
+    -webkit-box-shadow: 0px 12px 10px 0px rgba(0,0,0,0.34); 
+    box-shadow: 0px 12px 10px 0px rgba(0,0,0,0.2);
+    margin-bottom: 2rem;
+}
+
+menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style:none;
+    margin-right: 1rem;
+}
+
+li a{
+    text-decoration: none;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 5%;
+    color: #FFFFFF;
+    border: 0.5px solid;
+    transition: 0.4s;
+}
+
+footer{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: #229954;
+    border-color: #229954 ;
+}
+
+.btn-primary:hover{
+    background-color: #196F3D;
+    border-color: #196F3D ;
+}
+
+.btn-secondary{
+    background-color: #EC7063;
+    border-color: #EC7063 ;
+}
+
+.btn-secondary:hover{
+    background-color: #CB4335;
+    border-color: #CB4335 ;
+}
+
+input, textarea{
+    padding: 0.5rem 1rem;
+    border: 0.5px solid #D5DBDB;
+    border-radius: 5%;
+    width: 100%;
+}
+
+input:focus, textarea:focus{
+    outline: 1px solid #7DCEA0;
+}
+
+.mb{
+    margin-bottom: 2rem;
+}
+
+.mb-sm{
+    margin-bottom: 1rem;
+}
+
+.card{
+    width: 15rem;
+    border-radius: 5%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+}
+
+.card-body{
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.card img{
+    width: 15rem;
+    height: 12rem;
+    border-radius: 5%;
+}
+
+main{
+    text-align: center;
+    padding: 2rem 15%;
+}
+
+.d-block{
+    display: block;
+}
+
+.caratulas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.home h1{
+    font-size: 15rem ;
+}
+
+.home h2{
+    font-size:4rem;
+}

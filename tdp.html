@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <menu>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="index.html"><img src="img/ICO.png" alt="logo"></a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tyc.html">T&C</a></li>
+                    <li><a href="tdp.html">TDP</a></li>
+                </ul>
+            </nav>
+        </menu>
+    </header>
+
+    <main>
+        <h1 class="mb">Tratamiento de datos personales</h1>
+
+        <div class="caratulas">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h2 class="mb">TDP</h2>
+                    <p class="mb-sm">Aqui puedes descargar el documento completo de tratamiento de datos personales.</p>
+                    <button class="btn-primary" onclick="descargarTDP()">Descargar</button>
+                </div>
+            </div> 
+        </div>
+
+        
+
+    </main>
+
+    <footer class="mb">
+        Copyright &copy; 2021 | Todos los derechos reservados Andres Vega Perez
+    </footer>
+
+    <script>
+
+        function descargarTDP() {
+            window.open('docs/tdp.docx')
+        }
+    </script>
+
+</body>
+</html>
